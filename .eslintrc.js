@@ -13,6 +13,7 @@ module.exports = {
 		quotes: ['error', 'single'],
 		indent: ['error', 'tab'],
 		'max-len': ['error', 200],
-		'semi': 'error'
+		'semi': 'error',
+		'@typescript-eslint/no-explicit-any': 'off'
 	},
 };
