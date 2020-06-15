@@ -13,5 +13,6 @@ module.exports = {
 		quotes: ['error', 'single'],
 		indent: ['error', 'tab'],
 		'max-len': ['error', 200],
+		'semi': 'error'
 	},
 };
