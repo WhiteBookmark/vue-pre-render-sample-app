@@ -36,14 +36,5 @@
 		"vue-cli-plugin-vuetify": "~2.0.5",
 		"vue-template-compiler": "^2.6.11",
 		"vuetify-loader": "^1.5.0"
-	},
-	"gitHooks": {
-		"pre-commit": "lint-staged"
-	},
-	"lint-staged": {
-		"*.{js,jsx,vue}": [
-			"vue-cli-service lint",
-			"git add"
-		]
 	}
 }
