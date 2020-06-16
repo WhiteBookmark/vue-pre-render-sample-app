@@ -13,7 +13,7 @@
 				text
 			>
 				<span class="mr-2">Github</span>
-				<v-icon>mdi-open-in-new</v-icon>
+				<v-icon>{{ Icon.mdiOpenInNew }}</v-icon>
 			</v-btn>
 		</v-app-bar>
 
@@ -27,13 +27,17 @@
 import Vue from 'vue';
 import ListNews from '@/components/ListNews.vue';
 import Component from 'vue-class-component';
+import { mdiOpenInNew } from '@mdi/js';
 
 @Component({
 	components: {
-		ListNews
-	}
+		ListNews,
+	},
 })
-export default class App extends Vue{
+export default class App extends Vue {
 
+	get Icon() {
+		return { mdiOpenInNew };
+	}
 }
 </script>
