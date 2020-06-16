@@ -31,11 +31,7 @@ export default Vue.extend({
 	name: 'App',
 
 	components: {
-		ListNews
+		ListNews,
 	},
-
-	data: () => ({
-		//
-	})
 });
 </script>
