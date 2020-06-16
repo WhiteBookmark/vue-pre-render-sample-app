@@ -26,12 +26,14 @@
 <script lang="ts">
 import Vue from 'vue';
 import ListNews from '@/components/ListNews.vue';
+import Component from 'vue-class-component';
 
-export default Vue.extend({
-	name: 'App',
-
+@Component({
 	components: {
-		ListNews,
-	},
-});
+		ListNews
+	}
+})
+export default class App extends Vue{
+
+}
 </script>
