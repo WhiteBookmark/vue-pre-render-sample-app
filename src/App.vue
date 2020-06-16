@@ -18,7 +18,7 @@
 		</v-app-bar>
 
 		<v-main>
-			<ListNews />
+			<list-news></list-news>
 		</v-main>
 	</v-app>
 </template>
