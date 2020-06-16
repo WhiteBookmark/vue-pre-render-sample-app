@@ -6,7 +6,13 @@
 			:key="index"
 		>
 			<v-col>
-				<v-card class="mx-auto" outlined :href="information.url" target="_blank" raised>
+				<v-card
+					class="mx-auto"
+					outlined
+					:href="information.url"
+					target="_blank"
+					raised
+				>
 					<v-list-item three-line>
 						<v-list-item-content>
 							<div class="overline mb-4">
@@ -59,6 +65,9 @@ export default class ListNews extends Vue {
 			.catch(error => {
 				this.news = error;
 				this.isError = true;
+			})
+			.finally(() => {
+				document.dispatchEvent(new Event('axios-operation-completed'));
 			});
 	}
 
