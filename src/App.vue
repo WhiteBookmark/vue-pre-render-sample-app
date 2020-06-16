@@ -2,7 +2,7 @@
 	<v-app>
 		<v-app-bar app color="primary" dark>
 			<div class="d-flex align-center">
-				<h2>Pre-render Example</h2>
+				<h2>Pre-rendered Page</h2>
 			</div>
 
 			<v-spacer></v-spacer>
