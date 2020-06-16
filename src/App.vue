@@ -18,20 +18,20 @@
 		</v-app-bar>
 
 		<v-main>
-			<HelloWorld />
+			<ListNews />
 		</v-main>
 	</v-app>
 </template>
 
 <script lang="ts">
 import Vue from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+import ListNews from './components/ListNews.vue';
 
 export default Vue.extend({
 	name: 'App',
 
 	components: {
-		HelloWorld
+		ListNews
 	},
 
 	data: () => ({

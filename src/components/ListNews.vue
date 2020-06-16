@@ -42,7 +42,7 @@ import axios from 'axios';
 import dayjs from 'dayjs';
 
 @Component
-export default class HelloWorld extends Vue {
+export default class ListNews extends Vue {
 	private news: any = '';
 	private isError = false;
 
