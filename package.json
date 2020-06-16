@@ -10,7 +10,6 @@
 	"dependencies": {
 		"axios": "^0.19.2",
 		"dayjs": "^1.8.28",
-		"register-service-worker": "^1.7.1",
 		"vue": "^2.6.11",
 		"vue-class-component": "^7.2.3",
 		"vue-property-decorator": "^8.5.0",
@@ -20,7 +19,6 @@
 		"@typescript-eslint/eslint-plugin": "^3.3.0",
 		"@typescript-eslint/parser": "^3.3.0",
 		"@vue/cli-plugin-eslint": "~4.4.4",
-		"@vue/cli-plugin-pwa": "~4.4.4",
 		"@vue/cli-plugin-typescript": "~4.4.4",
 		"@vue/cli-service": "~4.4.4",
 		"@vue/eslint-config-typescript": "^5.0.2",
