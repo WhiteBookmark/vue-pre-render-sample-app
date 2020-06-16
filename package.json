@@ -11,6 +11,7 @@
 		"@mdi/js": "^5.3.45",
 		"axios": "^0.19.2",
 		"dayjs": "^1.8.28",
+		"typeface-roboto": "0.0.75",
 		"vue": "^2.6.11",
 		"vue-class-component": "^7.2.3",
 		"vue-property-decorator": "^8.5.0",
